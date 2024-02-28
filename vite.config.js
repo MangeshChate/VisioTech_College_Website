@@ -4,9 +4,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   // Add the following lines
-  base: '/my-app/',
+  base: '/',
   build: {
     outDir: 'dist',
-    emptyOutDir: true, // Ensure the output directory is cleared before each build
+    emptyOutDir: true, 
   },
 });
