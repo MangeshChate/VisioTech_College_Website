@@ -1,0 +1,62 @@
+import React from 'react';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+
+function Footer() {
+  return (
+    <footer className="text-center text-lg-start bg-light text-muted">
+      <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div className="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <div>
+          <a href="URL_TO_FACEBOOK_PAGE" className="me-4 text-reset" aria-label="Facebook">
+            <FacebookIcon />
+          </a>
+          <a href="URL_TO_TWITTER_PAGE" className="me-4 text-reset" aria-label="Twitter">
+            <TwitterIcon />
+          </a>
+          <a href="URL_TO_INSTAGRAM_PAGE" className="me-4 text-reset" aria-label="Instagram">
+            <InstagramIcon />
+          </a>
+          <a href="URL_TO_WHATSAPP_PAGE" className="me-4 text-reset" aria-label="WhatsApp">
+            <WhatsAppIcon />
+          </a>
+        </div>
+      </section>
+      <section className="">
+        <div className="container text-center text-md-start mt-5">
+          <div className="row mt-3">
+            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">VisioTech 2024</h6>
+              <p>
+                Address: <br />
+                MGM's College Of Engineering, <br />
+                Near Airport, off Nanded-Nagpur Highway, <br />
+                Nanded-431605.
+              </p>
+              <p>
+                Phone: +91 8668994134 <br />
+                Email: visiotech@mgmcen.ac.in
+              </p>
+            </div>
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>
+                Phone: +91 8668994134 <br />
+                Email: visiotech@mgmcen.ac.in
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
+        © 2024 Copyright: <a className="text-reset fw-bold" href="">visiotech.info</a>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
