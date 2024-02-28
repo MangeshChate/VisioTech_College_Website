@@ -33,9 +33,9 @@ function App() {
             <Coursoul />
             <Marquee />
             <Timer/>
-            <Main1 />
             <Main2 />
             <Checkout />
+            <Main1 />
             <Main3 />
            
           </>
@@ -54,9 +54,9 @@ function App() {
         <Route exact path='/campus' element={
           <>
             <Campus/>
-            <Main1 />
             <Main2 />
             <Checkout />
+            <Main1 />
             <Main3 />
             
           </>
@@ -67,9 +67,9 @@ function App() {
 
             <Events />
 
-            <Main1 />
             <Main2 />
             <Checkout />
+            <Main1 />
             <Main3 />
             
           </>
@@ -91,9 +91,9 @@ function App() {
           <>
 
             <College/>
-            <Main1 />
             <Main2 />
             <Checkout />
+            <Main1 />
             <Main3 />
            
           </>
