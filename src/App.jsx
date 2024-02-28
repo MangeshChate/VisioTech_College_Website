@@ -1,5 +1,6 @@
-
 import './App.css'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+
 
 import Coursoul from './components/Coursoul'
 import Main1 from './components/Main1'
@@ -9,7 +10,6 @@ import Navbar from './components/Navbar'
 import Checkout from './components/Checkout'
 import Main3 from './components/Main3'
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
 
@@ -67,7 +67,7 @@ function App() {
 
             <Events />
 
-           
+            <Main1 />
             <Main2 />
             <Checkout />
             <Main3 />
@@ -109,6 +109,8 @@ function App() {
             
           </>
         } />
+
+<Route path='*' element={<Navigate to="/" />} />
 
 
       </Routes>
