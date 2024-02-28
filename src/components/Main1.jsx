@@ -7,8 +7,8 @@ function Main1() {
       <div className='d-flex flex-column fw-bolder justify-content-center align-items-center '  >
         <div className='flex lg:flex-row flex-col items-center  justify-center gap-2 w-full lg:p-5 text-center '>
 
-          <span className='text-dark mt-3 text-2xl lg:text-5xl ' >Today’s Vision </span>
-          <span className='text-primary text-2xl lg:text-5xl lg:mt-3' > Tomorrow’s Techology</span>
+          <span className='text-dark mt-3 text-2xl lg:text-5xl ' >Today's Vision </span>
+          <span className='text-primary text-2xl lg:text-5xl lg:mt-3' > Tomorrow's Techology</span>
         </div>
       </div>
       <hr className='w-full mt-3' />
