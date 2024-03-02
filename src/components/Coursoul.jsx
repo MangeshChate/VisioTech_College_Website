@@ -15,7 +15,7 @@ function Coursoul() {
                   <span>MGM College Of Engineering</span>
                   <span>Nanded</span>
                 </h1>
-                <h4 className='lg:text-xl text-lg  text-light  mt-3 font-bold'>TechVisio 2024</h4>
+                <h4 className='lg:text-xl text-lg  text-light  mt-3 font-bold'>Visiotech 2024</h4>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ function Coursoul() {
                   <span>MGM College Of Engineering</span>
                   <span>Nanded</span>
                 </h1>
-                <h4 className='lg:text-xl text-lg  text-light  mt-3 font-bold'>TechVisio 2024</h4>
+                <h4 className='lg:text-xl text-lg  text-light  mt-3 font-bold'>Visiotech 2024</h4>
               </div>
             </div>
           </div>
