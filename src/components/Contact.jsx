@@ -22,9 +22,9 @@ function Contact() {
     return (
         <>
             <div className='h-[70vh] bg-cover bg-center' style={{ backgroundImage: "url('https://i.ytimg.com/vi/WOY1fySdVZo/maxresdefault.jpg')" }}>
-                <div className='w-full h-full bg-black bg-opacity-50 flex items-center justify-center'>
-                    <div className="container lg:p-10 p-4 flex justify-center items-center">
-                        <form ref={form} onSubmit={sendEmail} className='bg-white bg-opacity-80 lg:w-96 p-6 rounded-3 shadow'>
+                <div className='w-full h-full bg-black bg-opacity-50 flex '>
+                    <div className="container-fluid lg:p-10 p-0 flex justify-center items-center">
+                        <form ref={form} onSubmit={sendEmail} className='bg-white bg-opacity-80 lg:w-[800px] p-6 rounded-3 shadow '>
                             <input type="email" name="email" placeholder='Enter Your Email Address' className="form-control mb-4" required />
                             <textarea name="message" placeholder='Enter Your Message' className='form-control mb-4' rows="5" required></textarea>
                             <button type='submit' className="btn bg-primary text-light rounded-0 shadow font-bold w-full">Send</button>
@@ -34,7 +34,7 @@ function Contact() {
             </div>
 
             <div className='p-4 pb-5'>
-                <div className="container mx-auto">
+                <div className="container mx-auto mt-4">
                     <h1 className="text-3xl font-bold mb-4">Event Details</h1>
                     <div className="container mx-auto">
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 function Main1() {
   return (
-    <div className=' lg:p-5 p-3 d-flex mt-4 flex-column align-items-center ' style={{ backgroundColor: "whitesmoke" }}>
+    <div className=' lg:p-5 p-3 d-flex mt-4    mb-5 shadow  flex-column align-items-center ' style={{ backgroundColor: "whitesmoke" }}>
       <div className='d-flex flex-column fw-bolder justify-content-center align-items-center '  >
         <div className='flex lg:flex-row flex-col items-center  justify-center gap-2 w-full lg:p-5 text-center '>
 
           <span className='text-dark mt-3 text-2xl lg:text-5xl ' >Today's Vision </span>
-          <span className='text-primary text-2xl lg:text-5xl lg:mt-3' > Tomorrow's Techology</span>
+          <span className='text-primary text-2xl lg:text-5xl lg:mt-3' > Tomorrow's Technology</span>
         </div>
       </div>
       <hr className='w-full mt-3' />

@@ -6,12 +6,12 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function Footer() {
   return (
-    <footer className="text-center text-lg-start bg-light text-muted">
+    <footer className="text-center text-lg-start  text-muted" >
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <div className="me-5 d-none d-lg-block">
+        <div className="me-5 d-none d-lg-block ">
           <span>Get connected with us on social networks:</span>
         </div>
-        <div>
+        <div className=''>
           <a href="URL_TO_FACEBOOK_PAGE" className="me-4 text-reset" aria-label="Facebook">
             <FacebookIcon />
           </a>
@@ -48,6 +48,22 @@ function Footer() {
                 Phone: +91 8668994134 <br />
                 Email: visiotech@mgmcen.ac.in
               </p>
+              
+            </div>
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">Technical Support</h6>
+              <div className='flex flex-col gap-3'>
+
+              <p>
+                Name: Mangesh Chate <br />
+                WhatsApp: +91 8767094645 
+              </p>
+              <p>
+                Name: Omkar pawde <br />
+                WhatsApp: +91 8788063575 
+              </p>
+              </div>
+              
             </div>
           </div>
         </div>

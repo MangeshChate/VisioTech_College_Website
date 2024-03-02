@@ -16,7 +16,7 @@ const aboutData = [
   {
     name: "Dr. Mrs. Geeta S. Lathkar",
     description: "Director",
-    quote:"inventore maiores quia accusamus dicta ipsum, sapiente quos architecto quas corporis totam tenetur quasi incidunt expedita reiciendis similique eum. Cumque.",
+    quote:"Come together and contribute for the development of Engineering Education. I look forward to see you all here.",
     image: "https://www.visiotech2023.info/img/lathkarmam.jpg",
     paragraph:`Since 1984 MGM’s college of Engineering is functioning in this region maintaining a steady progress. With the UG, PG courses in five faculties of Engineering, the Research centres in Mechanical and Computer Engineering also made their mark along the way. We take pride in our pass outs working in organizations of repute all over the world.
     While educating today’s Engineers along with the knowledge of different subjects, including the appropriate skill-sets has become essential. To think creatively, to work on ideas, to communicate well, to work in a team are the inevitable parts of education if it is to be there for ‘Value addition’ in true sense.
@@ -50,17 +50,7 @@ function About() {
             <p className='text-2xl w-full lg:text-4xl font-serif text-gray-700  '>
               {data.quote}
             </p>
-            <div className="flex  text-primary mt-3 lg:mt-4 text-xl">
-            <a href="#" className="mr-4">
-              <Twitter />
-            </a>
-            <a href="#" className="mr-4">
-              <Facebook />
-            </a>
-            <a href="#">
-              <Instagram />
-            </a>
-          </div>
+           
           </div>
         </div>
         <div className='lg:p-3  p-3'>
