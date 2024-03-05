@@ -1,11 +1,12 @@
 import React from 'react';
 import broucher from "../assets/broucher.jpeg";
+import brochu from "../assets/brochu.pdf"
 
 function Main2() {
   const downloadBroucher = () => {
     const anchor = document.createElement('a');
-    anchor.href = broucher;
-    anchor.download = 'broucher.jpeg';
+    anchor.href = brochu;
+    anchor.download = 'broucher.pdf';
     anchor.click();
   };
 
@@ -18,7 +19,7 @@ function Main2() {
             <h1 className='font-bold text-3xl lg:text-5xl mb-4 text-white'>About VISIOTECH</h1>
             <p className='text-white text-lg lg:text-xl'>
               Today’s Vision Tomorrow’s Technology
-              This year MGM’s COE is celebrating its 38th year of establishment. We are organizing a Technical Event- VisioTech2023. The name VisioTech was coined as it represents Vision of Technocrats. The event will be packed with multiple knowledge and testing capabilities of would-be engineers.
+              This year MGM’s COE is celebrating its 39th year of establishment. We are organizing a Technical Event- VisioTech2024. The name VisioTech was coined as it represents Vision of Technocrats. The event will be packed with multiple knowledge and testing capabilities of would-be engineers.
             </p>
             <button className="bg-primary p-2 lg:px-6 lg:py-3 rounded-lg text-lg font-bold mt-5 text-light" onClick={downloadBroucher}>
               Download Brochure

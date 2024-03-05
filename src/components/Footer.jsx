@@ -9,21 +9,10 @@ function Footer() {
     <footer className="text-center text-lg-start  text-muted" >
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
         <div className="me-5 d-none d-lg-block ">
-          <span>Get connected with us on social networks:</span>
+          
         </div>
         <div className=''>
-          <a href="URL_TO_FACEBOOK_PAGE" className="me-4 text-reset" aria-label="Facebook">
-            <FacebookIcon />
-          </a>
-          <a href="URL_TO_TWITTER_PAGE" className="me-4 text-reset" aria-label="Twitter">
-            <TwitterIcon />
-          </a>
-          <a href="URL_TO_INSTAGRAM_PAGE" className="me-4 text-reset" aria-label="Instagram">
-            <InstagramIcon />
-          </a>
-          <a href="URL_TO_WHATSAPP_PAGE" className="me-4 text-reset" aria-label="WhatsApp">
-            <WhatsAppIcon />
-          </a>
+        
         </div>
       </section>
       <section className="">
@@ -37,15 +26,12 @@ function Footer() {
                 Near Airport, off Nanded-Nagpur Highway, <br />
                 Nanded-431605.
               </p>
-              <p>
-                Phone: +91 8668994134 <br />
-                Email: visiotech@mgmcen.ac.in
-              </p>
+             
             </div>
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
-                Phone: +91 8668994134 <br />
+                
                 Email: visiotech@mgmcen.ac.in
               </p>
               

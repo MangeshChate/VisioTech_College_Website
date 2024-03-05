@@ -2,7 +2,7 @@ import React from 'react'
 import CountdownTimer from './CountdownTimer'
 
 function Timer() {
-  const endDate = "2024-03-31T23:59:59";
+  const endDate = "2024-03-27T23:59:59";
   return (
     <div className='p-3 lg:p-5 text-light' style={{ backgroundColor: "#162241" }}>
 

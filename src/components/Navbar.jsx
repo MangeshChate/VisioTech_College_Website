@@ -14,7 +14,7 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
-  const endDate = "2024-03-31T23:59:59";
+  const endDate = "2024-03-27T23:59:59";
 
   return (
 
@@ -35,9 +35,7 @@ function Navbar() {
 
 
             <span className='d-flex justify-content-safe'>
-              <InstagramIcon />|
-              <TwitterIcon />|
-              <FacebookIcon />
+             
 
             </span>
           </div>
