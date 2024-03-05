@@ -34,7 +34,7 @@ function Coursoul() {
             </div>
           </div>
         </div>
-        <div className="carousel-item " style={{ backgroundImage: "url('https://images.shiksha.com/mediadata/images/1555579593phpvb8gxv.jpeg')", backgroundRepeat: "none", backgroundPosition: "center", backgroundSize: "cover" }}>
+        <div className="carousel-item " style={{ backgroundImage: "url('https://images.collegedunia.com/public/college_data/images/campusimage/141983345422220124295940601.jpg')", backgroundRepeat: "none", backgroundPosition: "center", backgroundSize: "cover" }}>
           <div className='h-[33rem] lg:h-[40rem]'>
             <div className='bg-dark bg-opacity-50 w-100 h-100 d-flex flex-column justify-content-center align-items-center'>
 
