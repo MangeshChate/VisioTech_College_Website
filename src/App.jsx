@@ -46,7 +46,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path='/' element={
-          <>
+          <div className=''>
 
             <Coursoul />
             <Marquee />
@@ -56,7 +56,7 @@ function App() {
             <Main1 />
             <Main3 />
 
-          </>
+          </div>
         } />
 
         <Route exact path='/about' element={

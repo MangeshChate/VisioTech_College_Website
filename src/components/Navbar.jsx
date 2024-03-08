@@ -7,6 +7,7 @@ import ThunderstormIcon from '@mui/icons-material/Thunderstorm';
 import CountdownTimer from './CountdownTimer';
 import { Link } from 'react-router-dom'
 import { Menu } from '@mui/icons-material';
+import logo from "../../public/logo.png"
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -21,7 +22,7 @@ function Navbar() {
     <nav className='w-[100vw]'>
 
       <div className='container-fluid '>
-        <div className="row   hidden  d-lg-flex align-items-center justify-content-between p-3 text-light" style={{ backgroundColor: "#162241" }}>
+        <div className="row hidden lg:flex lg:items-center lg:justify-between p-3 text-white bg-gradient-to-br from-indigo-800 to-gray-800">
           <div className="col-6 d-flex items-center">
             <h5 className='fw-bold '>MGM's COLLEGE OF ENGIRNEERING NANDED</h5>
             <h5 className='fw-bold ms-4 '>
@@ -46,13 +47,13 @@ function Navbar() {
           <div className="container-fluid ">
             <span className='navbar-brand flex items-center'>
 
-              <img src="https://upload.wikimedia.org/wikipedia/en/4/41/MGM_Institute_of_Health_Sciences_Logo.png" alt="" className='navbar-brand rounded-full  object-fill  w-[50px] lg:w-[70px]' />
+              <img src={logo} alt="" className='navbar-brand rounded-full  object-fill  w-[50px] lg:w-[70px] r ' />
 
               <div className=' flex-col justify-center hidden lg:flex'>
                 <span className='font-bold '>MGM College of Engineering Nanded</span>
                 <span className='small text-gray-500'>VisioTech 2024</span>
               </div>
-              <span className='lg:hidden block'>VisioTech 2024</span>
+              <span className='lg:hidden block '>VisioTech 2024</span>
             </span>
 
 

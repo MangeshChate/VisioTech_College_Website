@@ -11,9 +11,9 @@ function Main1() {
           <span className='text-primary text-2xl lg:text-5xl lg:mt-3' > Tomorrow's Technology</span>
         </div>
       </div>
-      <hr className='w-full mt-3' />
+      <hr className='w-full mt-3 ' />
 
-      <div className="container  grid grid-cols-1 lg:grid-cols-2 mt-5">
+      <div className="container lg:w-[1000px] pb-5 w-full  grid grid-cols-1 lg:grid-cols-1 mt-5 ">
         <div className=" ">
 
           <div className='flex items-center gap-3 justify-start'>
@@ -30,10 +30,7 @@ function Main1() {
           </p>
           <Link to="/about" className='text-primary fs-5'>read more</Link>
         </div>
-        <div className=" flex justify-center ">
-
-          <iframe className='shadow-lg mt-5 lg:mt-0 lg:w-[500px] lg:h-[300px] w-[600px] h-[200px]' src="https://www.youtube.com/embed/hC9GpxRy9SE?si=0SItnzfwUqsIQ6Nz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        </div>
+       
 
       </div>
     </div>

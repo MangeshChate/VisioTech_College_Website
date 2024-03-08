@@ -10,7 +10,7 @@ function Contact() {
     const sendEmail = async (e) => {
         e.preventDefault();
 
-        await emailjs.sendForm('service_wad1uqb', 'template_sxovywc', form.current, 'zZFALP4bkPVP94DTX')
+        await emailjs.sendForm('service_wad1uqb', 'template_sxovywc', form.current, 'MPuVPm08daSnviw_9')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {

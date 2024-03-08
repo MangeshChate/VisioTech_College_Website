@@ -11,7 +11,7 @@ function Main2() {
   };
 
   return (
-    <div className='mt-5 pb-5 bg-[#162241]'>
+    <div className='mt-5 pb-5 bg-gradient-to-br from-indigo-800 to-gray-800'>
       <div className='container'>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="lg:text-light mt-5 flex flex-col justify-center">

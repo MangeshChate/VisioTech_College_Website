@@ -4,7 +4,7 @@ import CountdownTimer from './CountdownTimer'
 function Timer() {
   const endDate = "2024-03-27T23:59:59";
   return (
-    <div className='p-3 lg:p-5 text-light' style={{ backgroundColor: "#162241" }}>
+    <div className='p-3 lg:p-5 text-light bg-gradient-to-br from-indigo-800 to-gray-800'>
 
       <div className='container gap-3 lg:gap-0 flex flex-col lg:flex-row justify-around lg:p-5 p-4 items-center'>
         <div className='flex flex-col lg:gap-3 gap-1 '>
