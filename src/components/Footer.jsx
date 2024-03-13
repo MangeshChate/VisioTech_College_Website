@@ -3,6 +3,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import { Instagram } from '@mui/icons-material';
 
 function Footer() {
   return (
@@ -34,6 +35,12 @@ function Footer() {
                 
                 Email: visiotech@mgmcen.ac.in
               </p>
+              <h6 className="text-uppercase fw-bold mb-3 mt-3">Follow Us On</h6>
+              <a href="https://www.instagram.com/visiotech.2k24?igsh=MXhsNzcyMm83a2RhZw==" target='_blank' className='text-3xl'>
+                
+                <Instagram className='text-pink-700 '/>
+              </a>
+              
               
             </div>
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
