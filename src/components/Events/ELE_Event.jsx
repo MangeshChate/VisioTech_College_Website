@@ -48,9 +48,7 @@ const ELE_Event = () => {
 
                     {/* Placeholder for images */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
+                       
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import MECH from "../../assets/MECH.jpg"
 const Mechanic_Event = () => {
     return (
         <div className="container mt-5">
@@ -53,9 +53,11 @@ const Mechanic_Event = () => {
 
                     {/* Placeholder for images */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
+                    <div className="bg-gray-200 h-48 rounded-md">
+                        <img src={MECH} alt="" className='object-cover w-full h-full rounded-md' />
+
+                        </div>
+                        
                     </div>
                 </div>
             </div>

@@ -43,7 +43,7 @@ function Navbar() {
 
         </div>
 
-        <div className="row navbar navbar-expand-lg d-flex bg-light ">
+        <div className="lg:h-fit p-0 row navbar navbar-expand-lg d-flex bg-light ">
           <div className="container-fluid ">
             <span className='navbar-brand flex items-center'>
 

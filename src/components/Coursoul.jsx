@@ -6,12 +6,12 @@ function Coursoul() {
     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active" style={{ backgroundImage: "url('https://i.ytimg.com/vi/WOY1fySdVZo/maxresdefault.jpg')", backgroundRepeat: "none", backgroundPosition: "center", backgroundSize: "cover" }}>
-          <div className='h-[33rem] lg:h-[40rem]'>
+          <div className='h-[25rem] lg:h-[40rem]'>
             <div className='bg-dark bg-opacity-50 w-100 h-100 d-flex flex-column justify-content-center align-items-center'>
 
               <div className='  d-flex flex-column justify-content-center align-items-center '>
 
-                <h1 className='text-2xl lg:text-5xl text-center fw-bold gap-2 flex flex-col lg:flex-row text-light '>
+                <h1 className='text-xl lg:text-5xl text-center fw-bold gap-2 flex flex-col lg:flex-row text-light '>
                   <span>MGM College Of Engineering</span>
                   <span>Nanded</span>
                 </h1>
@@ -20,12 +20,12 @@ function Coursoul() {
             </div>
           </div>
         </div>
-        <div className="carousel-item " style={{ backgroundImage: "url('https://docplayer.net/docs-images/98/134820269/images/4-2.jpg')", backgroundRepeat: "none", backgroundPosition: "center", backgroundSize: "cover" }}>
-          <div className='h-[33rem] lg:h-[40rem]'>
+        <div className="carousel-item " style={{ backgroundImage: "url('https://images.collegedunia.com/public/college_data/images/campusimage/141983345422220124301934934.jpg')", backgroundRepeat: "none", backgroundPosition: "center", backgroundSize: "cover" }}>
+          <div className='h-[25rem] lg:h-[40rem]'>
             <div className='bg-dark bg-opacity-50 w-100 h-100 d-flex flex-column justify-content-center align-items-center '>
               <div className='  d-flex flex-column justify-content-center align-items-center '>
 
-                <h1 className='text-2xl lg:text-5xl text-center fw-bold gap-2 flex flex-col lg:flex-row text-light '>
+                <h1 className='text-xl lg:text-5xl text-center fw-bold gap-2 flex flex-col lg:flex-row text-light '>
                   <span>MGM College Of Engineering</span>
                   <span>Nanded</span>
                 </h1>
@@ -35,12 +35,12 @@ function Coursoul() {
           </div>
         </div>
         <div className="carousel-item " style={{ backgroundImage: "url('https://images.collegedunia.com/public/college_data/images/campusimage/141983345422220124295940601.jpg')", backgroundRepeat: "none", backgroundPosition: "center", backgroundSize: "cover" }}>
-          <div className='h-[33rem] lg:h-[40rem]'>
+          <div className='h-[25rem] lg:h-[40rem]'>
             <div className='bg-dark bg-opacity-50 w-100 h-100 d-flex flex-column justify-content-center align-items-center'>
 
               <div className='  d-flex flex-column justify-content-center align-items-center '>
 
-                <h1 className='text-2xl lg:text-5xl text-center fw-bold gap-2 flex flex-col lg:flex-row text-light '>
+                <h1 className='text-xl lg:text-5xl text-center fw-bold gap-2 flex flex-col lg:flex-row text-light '>
                   <span>MGM College Of Engineering</span>
                   <span>Nanded</span>
                 </h1>
@@ -57,6 +57,7 @@ function Coursoul() {
       <button className="carousel-control-next hideen lg:block" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
+        
       </button>
     </div>
 

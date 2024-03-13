@@ -1,4 +1,8 @@
 import React from 'react'
+import civil1 from "../../assets/civil1.jpeg"
+import civil2 from "../../assets/civil2.jpeg"
+import civil3 from "../../assets/civil3.jpeg"
+
 
 const Civil_Event = () => {
     return (
@@ -49,9 +53,17 @@ const Civil_Event = () => {
 
                     {/* Placeholder for images */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
+                        <div className="bg-gray-200 h-48 rounded-md">
+                        <img src={civil1} alt="" className='object-cover w-full h-full rounded-md' />
+                        </div>
+                        <div className="bg-gray-200 h-48 rounded-md">
+                        <img src={civil2} alt="" className='object-cover w-full h-full rounded-md' />
+
+                        </div>
+                        <div className="bg-gray-200 h-48 rounded-md">
+                        <img src={civil3} alt="" className='object-cover w-full h-full rounded-md' />
+
+                        </div>
                     </div>
                 </div>
             </div>

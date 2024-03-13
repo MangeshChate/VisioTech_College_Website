@@ -1,4 +1,6 @@
 import React from 'react'
+import it1 from "../../assets/it1.jpg"
+import it2 from "../../assets/it2.jpg"
 
 const IT_Event = () => {
     return (
@@ -48,9 +50,15 @@ const IT_Event = () => {
 
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
-                        <div className="bg-gray-200 h-48 rounded-md"></div>
+                        <div className="bg-gray-200 h-48 rounded-md">
+                        <img src={it1} alt="" className='object-cover w-full h-full rounded-md' />
+
+                        </div>
+                        <div className="bg-gray-200 h-48 rounded-md">
+                        <img src={it2} alt="" className='object-cover w-full h-full rounded-md' />
+
+                        </div>
+                       
                     </div>
                 </div>
             </div>
