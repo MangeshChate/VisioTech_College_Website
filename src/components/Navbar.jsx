@@ -32,7 +32,7 @@ function Navbar() {
             
           </div>
           <div className="col-6 d-flex justify-content-end">
-            <a href="https://www.mgmccsit.ac.in/Placements%20&%20Training%20Cell.htm" className="btn shadow text-light fw-bold btn-sm btn-primary ms-2 me-2">OFFICIAL WEBSITE</a>
+            <a href="https://www.mgmcen.ac.in/default.aspx" className="btn shadow text-light fw-bold btn-sm btn-primary ms-2 me-2">OFFICIAL WEBSITE</a>
 
 
             <span className='d-flex justify-content-safe'>
