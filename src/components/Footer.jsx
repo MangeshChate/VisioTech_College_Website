@@ -48,13 +48,18 @@ function Footer() {
               <div className='flex flex-col gap-3'>
 
               <p>
-                Name: Mangesh Chate <br />
-                WhatsApp: +91 8767094645 
+                 Mangesh Chate 
+                
               </p>
-              <p>
-                Name: Omkar pawde <br />
-                WhatsApp: +91 8788063575 
+                <p>
+                 Atharv Bangale 
+                
               </p>
+                <p>
+                 Pratyusha Ansapure 
+                
+              </p>
+             
               </div>
               
             </div>
